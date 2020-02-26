@@ -4,7 +4,7 @@ This repository is an attemp to approximate pi in as many programming languages 
 
 ## Leibniz Formula for π
 
-```
+```pseudo
 1 - 1/3 + 1/5 - 1/7 + 1/9 - ··· = π/4
 ```
 
