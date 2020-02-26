@@ -1,4 +1,4 @@
-//pub const PI: f64 = 3.14159265358979323846264338327950288f64;
+// pub const PI: f64 = 3.14159265358979323846264338327950288f64;
 
 fn main() {
     let mut pi: f64 = 4.0;
@@ -10,6 +10,6 @@ fn main() {
         } else {
             pi += 4.0/div;
         }
-        println!("approx: {},\t % err: {}", pi, (pi - std::f64::consts::PI).abs() / std::f64::consts::PI);
+        println!("approx: {},\t % err: {}", pi, 100.0 * (pi - std::f64::consts::PI).abs() / std::f64::consts::PI);
     }
 }
